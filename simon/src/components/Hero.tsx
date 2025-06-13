@@ -9,14 +9,19 @@ export default function Hero() {
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-0  z-0" />
+      <div className="absolute inset-0  bg-black/45 z-0" />
 
       {/* Content */}
-      <div className="relative z-10 px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+      <div className="relative z-10 px-4 flex flex-col items-center gap-6">
+        <img
+          src="/simon-logo-new.png"
+          alt="Simon Frisør logo"
+          className="w-40 md:w-60"
+        />
+        <h1 className="text-4xl md:text-6xl font-bold">
           Velkommen til Simon Frisør
         </h1>
-        <p className="text-lg md:text-xl max-w-xl mx-auto mb-8">
+        <p className="text-lg md:text-xl max-w-xl">
           Klassisk klipp, moderne stil. Din lokale frisør i Oslo.
         </p>
         <a

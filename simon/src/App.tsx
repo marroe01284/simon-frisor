@@ -1,4 +1,4 @@
-import Aapningstider from "./components/Aapningstider";
+
 import Anmeldelser from "./components/Anmeldelser";
 import Besok from "./components/Besøk";
 import Footer from "./components/Footer";
@@ -12,7 +12,6 @@ function App() {
       <Priser />
       <Besok />
       <Anmeldelser />
-      <Aapningstider />
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ export default function Navbar() {
       alt="Simon Frisør logo"
       className="w-32 md:w-48"
     />
-    <nav>
+    {/* <nav>
       <ul className="flex gap-8 text-sm md:text-base font-medium">
         <li><a href="#tjenester" className="hover:underline">Tjenester</a></li>
         <li><a href="#aapningstider" className="hover:underline">Åpningstider</a></li>
@@ -14,7 +14,7 @@ export default function Navbar() {
         <li><a href="#besok" className="hover:underline">Besøk Oss</a></li>
 
       </ul>
-    </nav>
+    </nav> */}
   </header>
   );
 }

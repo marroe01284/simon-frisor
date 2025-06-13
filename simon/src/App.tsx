@@ -10,9 +10,9 @@ function App() {
     <div>
       <Hero />
       <Priser />
-      <Aapningstider />
-      <Anmeldelser />
       <Besok />
+      <Anmeldelser />
+      <Aapningstider />
       <Footer />
     </div>
   );

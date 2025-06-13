@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="bg-black text-white py-8 flex flex-col items-center gap-4">
+    <header className=" bg-black text-white py-8 flex flex-col items-center gap-4">
     <img
       src="/simon-logo.png"
       alt="Simon Frisør logo"

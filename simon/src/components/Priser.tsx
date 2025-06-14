@@ -10,13 +10,13 @@ export default function Priser() {
   ];
 
   return (
-    <section id="priser" className="bg-gray-100 py-16 px-4 text-center">
+    <section id="priser" className="bg-white py-16 px-4 text-center border">
       <h2 className="text-3xl font-bold mb-10">Priser</h2>
       <div className="max-w-3xl mx-auto divide-y divide-gray-300">
         {tjenester.map(([tjeneste, pris, type], index) => (
           <div
             key={index}
-            className="grid grid-cols-3 py-4 text-left text-sm md:text-base"
+            className="grid grid-cols-3 py-4 text-left text-sm md:text-base font-semibold"
           >
             <div>{tjeneste}</div>
             <div className="text-center">{pris}</div>

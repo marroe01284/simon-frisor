@@ -17,6 +17,16 @@ const anmeldelser = [
     navn: "Annichen Large",
     tekst: "Fantastisk service og resultat – kommer definitivt tilbake!",
   },
+  {
+    navn: "Pia Prestmo",
+    tekst:
+      "Vår famile har klipt oss hos Simon i en årekke og kan anbefale ham på det sterkeste. Dyktig, serviceminded og svært hyggelig betjening.",
+  },
+  {
+    navn: "Søren Mohn",
+    tekst:
+      "Nydelig sted, kjempegod service og veldig fornøyd med klippen. kommer kun her og klipper meg. :)",
+  },
 ];
 
 export default function Anmeldelser() {
@@ -37,7 +47,7 @@ export default function Anmeldelser() {
               className="embla__slide flex-[0_0_100%] md:flex-[0_0_50%] px-4"
             >
               <div className="h-full flex items-stretch">
-                <div className="bg-gray-100 rounded p-6 shadow-xl w-full h-full flex flex-col justify-between text-left">
+                <div className="bg-Tert rounded p-6 shadow-xl w-full h-full flex flex-col justify-between text-left">
                   <p className="italic mb-4">"{item.tekst}"</p>
                   <p className="text-sm text-gray-600 mt-auto">– {item.navn}</p>
                 </div>
@@ -60,6 +70,24 @@ export default function Anmeldelser() {
         >
           <ChevronRight className="w-5 h-5" />
         </button>
+      </div>
+      <div className="max-w-xl mx-auto mb-10 mt-10">
+        <p className="text-lg text-gray-700 font-medium">
+          Vi er stolte av våre ⭐ {" "}
+          <span className="font-bold text-yellow-500">4,9 av 5</span> på Google!
+        </p>
+        <p className="text-sm text-gray-500 mt-2">
+          Vi setter stor pris på hver eneste tilbakemelding og jobber hver dag
+          for å gi deg den beste frisøropplevelsen.
+        </p>
+        <a
+          href="https://www.google.com/search?q=Simon+Frisør+Oslo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-block text-blue-600 hover:underline text-sm"
+        >
+          Se alle anmeldelser på Google →
+        </a>
       </div>
     </section>
   );
